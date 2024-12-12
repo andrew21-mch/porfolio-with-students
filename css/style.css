@@ -85,3 +85,141 @@ header .nav-list  a:hover {
     color: var(--light-color);
   }
   
+  #about-preview {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--light-color);
+    margin: 2% 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #about-preview h2 {
+    color: var(--primary-color);
+    margin: 1%;
+    font-size: 2rem;
+  }
+
+  #about-preview p {
+    margin-bottom: 2rem;
+  }
+
+  #about-preview .btn {
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+  }
+
+  #about-preview .btn:hover {
+    background: var(--secondary-color);
+    color: var(--light-color);
+  }
+
+
+  #projects-preview {
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  #projects-preview h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .project-card {
+    background-color: var(--light-color);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    margin: 1%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    width: 250px;
+    padding: 1.5rem;
+  }
+
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  .project-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    margin-bottom: 1rem;
+  }
+
+  .project-card .btn {
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+
+  /* Section: Contact Preview */
+#contact-preview {
+    padding: 2rem;
+    text-align: center;
+    background: var(--light-color);
+    margin: 2rem 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact-preview h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  #contact-preview p {
+    margin-bottom: 1.5rem;
+  }
+  
+  #contact-preview .btn {
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #contact-preview .btn:hover {
+    background: var(--secondary-color);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary-color);
+    color: var(--light-color);
+  }
+  
+  footer a {
+    color: var(--light-color);
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
